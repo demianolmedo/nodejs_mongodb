@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("bdd_bitacora", "usccentera","alcc2378001", {
-  host: "150.1.88.224",
+const sequelize = new Sequelize("BD_NOMBRE", "USER","PASS", {
+  host: "NOST",
   dialect: "mysql",
   operatorsAliases: false,
   pool: {
