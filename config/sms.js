@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
-const sequelize = new Sequelize("SMS_SUR", "userdev", "passdev2022!", {
-  host: "172.23.223.71",
+const sequelize = new Sequelize("BD_NOMBRE", "USER", "PASS", {
+  host: "HOST",
   dialect: "mariadb",
   operatorsAliases: false,
   pool: {
